@@ -68,7 +68,7 @@ function Chat() {
   
             <input value={input} onChange={e=>setInput(e.target.value)} className="chat__input"/>
             <MicIcon/>
-            <button onClick={sendMessage} type="submit" className="chat__button">send</button>
+            <button disabled={!input}  onClick={sendMessage} type="submit" className="chat__button">send</button>
             
 
             </form>
