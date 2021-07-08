@@ -24,19 +24,26 @@
     cursor:pointer;
 }
 .chat__footer{
-    display:flex;
-    align-items:center;
     background:lightgray;
     height:10vh;
+    display:flex;
+    align-items: center;
+}
+.chat__form{
+    display:flex;
+    align-items:center;
+    flex: 1;
+    
 }
 .chat__input{
+    flex:1;
     padding:10px;
     border:none;
     outline:none;
     background-color:transparent;
     background:#fafafa;
     border-radius:20px;
-    flex:1;
+  
 
 }
 .chat__button{

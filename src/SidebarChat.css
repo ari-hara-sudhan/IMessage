@@ -3,6 +3,7 @@
     align-items:center;
     background:white;
     cursor:pointer;
+    padding:10px;
 }
 .sidebarchat__chat:hover{
     background-color: #3ea4fb;
@@ -10,12 +11,16 @@
 }
 
 .sidebarchat__info{
-    margin-left:4px;
+    margin-left:10px;
     padding:10px;
+    margin:10px;
+    width:100%;
     position:sticky;
 }
 .sidebarchat__timestamp{
     position:absolute;
-    left:150px;
-    top:20px;
+    top: 0;
+    right:4px;
+    justify-content: center;
+    font-size:10px;
 }
