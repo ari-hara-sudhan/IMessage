@@ -1,0 +1,38 @@
+.sidebar{
+    display:flex;
+    flex:0.2;
+    flex-direction: column;
+    background:lightgray;
+    height:100vh;
+    padding:2px;
+}
+.sidebar__avatar{
+    margin:10px;
+}
+.sidebar__header{
+    display:flex;
+    align-items:center;
+}
+.sidebar__input{
+    display:flex;
+    align-items:center;
+    padding:5px;
+    background:#fafafa;
+    border-radius:20px;
+    justify-content: center;
+}
+.sidebar__input>input{
+    border:none;
+    background:transparent;
+    outline:none;
+}
+.sidebar__icon{
+    margin-left:10px;
+    cursor:pointer;
+}
+.sidebar__chat{
+    overflow-y: scroll;
+}
+.sidebar__chat::-webkit-scrollbar{
+    display:none;
+}

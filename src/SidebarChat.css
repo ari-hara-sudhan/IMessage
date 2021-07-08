@@ -1,0 +1,16 @@
+.sidebarchat__chat{
+    display:flex;
+    align-items:center;
+    background:white;
+    cursor:pointer;
+}
+.sidebarchat__info{
+    margin-left:4px;
+    padding:10px;
+    position:sticky;
+}
+.sidebarchat__timestamp{
+    position:absolute;
+    left:150px;
+    top:20px;
+}
