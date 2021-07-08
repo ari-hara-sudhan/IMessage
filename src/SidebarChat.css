@@ -4,6 +4,11 @@
     background:white;
     cursor:pointer;
 }
+.sidebarchat__chat:hover{
+    background-color: #3ea4fb;
+    color:white;
+}
+
 .sidebarchat__info{
     margin-left:4px;
     padding:10px;

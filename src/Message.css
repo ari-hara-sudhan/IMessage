@@ -1,0 +1,8 @@
+.message{
+    display:flex;
+    align-items:center;
+}
+.message__info{
+   display:flex;
+   margin:10px; 
+}
